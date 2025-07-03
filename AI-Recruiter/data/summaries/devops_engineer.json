@@ -1,0 +1,23 @@
+{
+  "Role": "DevOps Engineer",
+  "Required Skills": [
+    "Cloud platforms (AWS, Azure, Google Cloud)",
+    "Containerization (Docker, Kubernetes)",
+    "Strong scripting skills (Python, Bash, PowerShell)",
+    "Configuration management tools (Ansible, Chef, Puppet)"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science, IT, or related field"
+  },
+  "Experience": [
+    "Proficiency in CI/CD pipelines",
+    "Automating infrastructure management using tools like Terraform or Ansible"
+  ],
+  "Responsibilities": [
+    "Develop and maintain CI/CD pipelines for seamless deployment",
+    "Automate infrastructure management using tools like Terraform or Ansible",
+    "Monitor system performance and ensure high availability",
+    "Collaborate with development and operations teams to optimize workflows",
+    "Implement security best practices and ensure compliance"
+  ]
+}

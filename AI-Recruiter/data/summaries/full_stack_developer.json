@@ -1,0 +1,26 @@
+{
+  "Role": "Full Stack Developer",
+  "Required Skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Databases (SQL/NoSQL)",
+    "RESTful APIs",
+    "Cloud services"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science or related field",
+    "Proficiency": "JavaScript, React, Node.js, and databases (SQL/NoSQL)"
+  },
+  "Experience": [
+    "Equivalent experience to Bachelor's degree",
+    "Version control (Git)"
+  ],
+  "Responsibilities": [
+    "Develop and maintain web applications using modern frontend and backend technologies",
+    "Collaborate with designers and backend engineers to implement new features",
+    "Optimize application performance and ensure scalability",
+    "Troubleshoot and debug issues in a fast-paced environment",
+    "Stay updated with emerging web technologies and best practices"
+  ]
+}

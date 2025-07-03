@@ -1,0 +1,27 @@
+{
+  "Role": "Data Scientist",
+  "Required Skills": [
+    "Analytical and problem-solving skills",
+    "Proficiency in Python, R, SQL, and machine learning frameworks",
+    "Experience with data visualization tools like Tableau or Power BI"
+  ],
+  "Qualifications": [
+    "Bachelor's or Master's degree in Data Science, Computer Science, or a related field",
+    "Proficiency in Python, R, SQL, and machine learning frameworks",
+    "Experience with data visualization tools like Tableau or Power BI"
+  ],
+  "Experience": [
+    "Collecting, cleaning, and analyzing large datasets",
+    "Developing and deploying machine learning models",
+    "Building predictive analytics solutions to improve business outcomes",
+    "Communicating findings through reports and visualizations",
+    "Staying updated with advancements in data science and AI"
+  ],
+  "Responsibilities": [
+    "Collect, clean, and analyze large datasets",
+    "Develop and deploy machine learning models",
+    "Build predictive analytics solutions to improve business outcomes",
+    "Communicate findings through reports and visualizations",
+    "Stay updated with advancements in data science and AI"
+  ]
+}

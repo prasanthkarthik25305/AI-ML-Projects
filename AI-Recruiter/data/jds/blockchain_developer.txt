@@ -1,0 +1,16 @@
+Description:
+Design, develop, and maintain blockchain-based applications, ensuring security, scalability, and efficiency. Work with smart contracts, decentralized applications (DApps), and cryptographic protocols to build innovative solutions.
+
+Responsibilities:
+
+Develop and deploy secure smart contracts and blockchain applications.
+Optimize blockchain infrastructure for performance and scalability.
+Integrate blockchain solutions with existing systems.
+Ensure security and compliance in blockchain implementations.
+Stay updated with emerging blockchain technologies and trends.
+Qualifications:
+
+Bachelor's degree in Computer Science, Information Technology, or a related field.
+Proficiency in Solidity, Ethereum, Hyperledger, or other blockchain frameworks.
+Experience with cryptography, smart contracts, and decentralized applications.
+Strong problem-solving skills and knowledge of distributed systems.

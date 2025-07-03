@@ -1,0 +1,13 @@
+Description:
+We are looking for a skilled Cloud Engineer to design, implement, and manage cloud-based infrastructure. You will optimize performance, enhance security, and ensure scalability while collaborating with development teams to deploy cloud solutions efficiently.
+
+Responsibilities:
+Design and maintain cloud architecture for high availability and security.
+Automate deployments and manage CI/CD pipelines.
+Monitor cloud systems, troubleshoot issues, and optimize costs.
+Implement security best practices and compliance measures.
+Qualifications:
+Bachelors degree in Computer Science, IT, or related field.
+Experience with cloud platforms like AWS, Azure, or Google Cloud.
+Proficiency in infrastructure-as-code (Terraform, CloudFormation).
+Strong scripting skills in Python, Bash, or PowerShell.

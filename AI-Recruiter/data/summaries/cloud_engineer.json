@@ -1,0 +1,20 @@
+{
+  "Role": "Cloud Engineer",
+  "Required Skills": [
+    "Infrastructure-as-code (Terraform, CloudFormation)",
+    "Scripting skills in Python, Bash, or PowerShell"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science, IT, or related field"
+  },
+  "Experience": [
+    "Experience with cloud platforms like AWS, Azure, or Google Cloud",
+    "Proficiency in infrastructure-as-code (Terraform, CloudFormation)"
+  ],
+  "Responsibilities": [
+    "Design and maintain cloud architecture for high availability and security",
+    "Automate deployments and manage CI/CD pipelines",
+    "Monitor cloud systems, troubleshoot issues, and optimize costs",
+    "Implement security best practices and compliance measures"
+  ]
+}

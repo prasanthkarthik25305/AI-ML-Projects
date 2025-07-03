@@ -1,0 +1,15 @@
+Description:
+We are looking for a skilled Cybersecurity Analyst to protect our organization's systems and data from cyber threats. You will monitor networks, analyze security incidents, and implement protective measures to ensure compliance and data integrity.
+
+Responsibilities:
+Monitor and analyze security alerts to detect potential threats.
+Conduct vulnerability assessments and risk analysis.
+Implement security policies, firewalls, and encryption protocols.
+Investigate and respond to security breaches.
+Ensure compliance with cybersecurity regulations and best practices.
+Qualifications:
+Bachelor's degree in Cybersecurity, Computer Science, or related field.
+Experience with security tools like SIEM, firewalls, and intrusion detection systems.
+Knowledge of network security, encryption, and risk management.
+Strong analytical and problem-solving skills.
+Certifications like CEH, CISSP, or CompTIA Security+ are a plus.

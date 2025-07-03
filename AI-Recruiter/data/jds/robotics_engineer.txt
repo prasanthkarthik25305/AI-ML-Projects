@@ -1,0 +1,14 @@
+Description:
+We are seeking an innovative Robotics Engineer to design, develop, and optimize robotic systems for automation and intelligent applications. You will work on hardware-software integration, motion control, and AI-driven robotics solutions.
+
+Responsibilities:
+Design, build, and test robotic systems for industrial or research applications.
+Develop software algorithms for navigation, control, and automation.
+Integrate sensors, actuators, and AI-based decision-making systems.
+Troubleshoot and optimize robotic performance.
+Stay updated with emerging robotics technologies and advancements.
+Qualifications:
+Bachelors or Masters degree in Robotics, Mechanical Engineering, or related field.
+Proficiency in C++, Python, and ROS (Robot Operating System).
+Experience with embedded systems, motion planning, and AI applications in robotics.
+Strong analytical and problem-solving skills

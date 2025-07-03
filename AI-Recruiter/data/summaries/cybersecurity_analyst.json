@@ -1,0 +1,23 @@
+{
+  "Role": "Cybersecurity Analyst",
+  "Required Skills": [
+    "Security tools (SIEM, firewalls, intrusion detection systems)",
+    "Network security",
+    "Encryption",
+    "Risk management",
+    "Analytical and problem-solving skills"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Cybersecurity, Computer Science, or related field"
+  },
+  "Experience": [
+    "Experience with security tools like SIEM, firewalls, and intrusion detection systems"
+  ],
+  "Responsibilities": [
+    "Monitor and analyze security alerts",
+    "Conduct vulnerability assessments and risk analysis",
+    "Implement security policies, firewalls, and encryption protocols",
+    "Investigate and respond to security breaches",
+    "Ensure compliance with cybersecurity regulations and best practices"
+  ]
+}

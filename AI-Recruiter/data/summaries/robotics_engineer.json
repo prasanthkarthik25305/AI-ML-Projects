@@ -1,0 +1,27 @@
+{
+  "Role": "Robotics Engineer",
+  "Required Skills": [
+    "C++",
+    "Python",
+    "ROS (Robot Operating System)",
+    "Embedded systems",
+    "Motion planning",
+    "AI applications in robotics"
+  ],
+  "Qualifications": [
+    "Bachelor's/Master's degree in Robotics, Mechanical Engineering, or related field",
+    "Proficiency in C++, Python, and ROS"
+  ],
+  "Experience": [
+    "Embedded systems experience",
+    "Motion planning experience",
+    "AI application experience in robotics"
+  ],
+  "Responsibilities": [
+    "Design, build, and test robotic systems for industrial or research applications",
+    "Develop software algorithms for navigation, control, and automation",
+    "Integrate sensors, actuators, and AI-based decision-making systems",
+    "Troubleshoot and optimize robotic performance",
+    "Stay updated with emerging robotics technologies and advancements"
+  ]
+}

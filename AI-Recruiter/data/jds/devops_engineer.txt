@@ -1,0 +1,15 @@
+Description:
+We are seeking a skilled DevOps Engineer to streamline development, deployment, and operations. You will be responsible for automating infrastructure, improving CI/CD pipelines, and ensuring system reliability, security, and scalability.
+
+Responsibilities:
+Develop and maintain CI/CD pipelines for seamless deployment.
+Automate infrastructure management using tools like Terraform or Ansible.
+Monitor system performance and ensure high availability.
+Collaborate with development and operations teams to optimize workflows.
+Implement security best practices and ensure compliance.
+Qualifications:
+Bachelor's degree in Computer Science, IT, or related field.
+Proficiency in cloud platforms (AWS, Azure, or Google Cloud).
+Experience with containerization (Docker, Kubernetes).
+Strong scripting skills (Python, Bash, or PowerShell).
+Knowledge of configuration management tools (Ansible, Chef, or Puppet).

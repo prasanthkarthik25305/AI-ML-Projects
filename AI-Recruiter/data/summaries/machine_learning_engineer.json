@@ -1,0 +1,23 @@
+{
+  "Role": "Machine Learning Engineer",
+  "Required Skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn"
+  ],
+  "Qualifications": [
+    "Bachelor's or Master's in Computer Science, Data Science, or a related field"
+  ],
+  "Experience": [
+    "Data preprocessing",
+    "Model deployment",
+    "Cloud platforms"
+  ],
+  "Responsibilities": [
+    "Develop and optimize machine learning models for various applications.",
+    "Process and analyze large datasets to extract meaningful insights.",
+    "Deploy and maintain AI models in production environments.",
+    "Collaborate with data scientists, engineers, and product teams."
+  ]
+}

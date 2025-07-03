@@ -1,0 +1,23 @@
+{
+  "Role": "IT Project Manager",
+  "Required Skills": [
+    "Leadership",
+    "Communication",
+    "Problem-solving",
+    "Risk management"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in IT, Computer Science, or related field",
+    "Experience": "Proven experience in IT project management"
+  },
+  "Experience": [
+    "IT project management experience"
+  ],
+  "Responsibilities": [
+    "Define project scope and goals",
+    "Develop and manage project timelines, budgets, and resources",
+    "Coordinate with cross-functional teams and stakeholders",
+    "Identify and mitigate risks",
+    "Monitor progress and provide regular status updates"
+  ]
+}

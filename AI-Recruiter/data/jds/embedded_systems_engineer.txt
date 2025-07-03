@@ -1,0 +1,16 @@
+Description:
+Design and develop software for embedded systems, ensuring performance, efficiency, and reliability. Work with microcontrollers, real-time operating systems, and low-level programming to build innovative solutions for various industries.
+
+Responsibilities:
+
+Develop, test, and optimize embedded software and firmware.
+Collaborate with hardware teams to ensure seamless integration.
+Debug and troubleshoot real-time system issues.
+Optimize power consumption and system performance.
+Stay updated with emerging technologies in embedded systems.
+Qualifications:
+
+Bachelor's degree in Electrical Engineering, Computer Engineering, or related field.
+Proficiency in C/C++, assembly language, and embedded Linux.
+Experience with microcontrollers, RTOS, and hardware debugging tools.
+Strong problem-solving and analytical skills.

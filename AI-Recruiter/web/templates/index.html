@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Recruiter</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 AI Recruiter</h1>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class="flashes">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <form action="/process" method="POST" enctype="multipart/form-data">
+      <label for="jd">Upload Job Description (.txt):</label><br>
+      <input type="file" name="jd" accept=".txt" required><br><br>
+    
+      <label for="cvs">Upload Candidate CVs (.pdf, .docx):</label><br>
+      <input type="file" name="cvs" multiple accept=".pdf,.docx" required><br><br>
+    
+      <button type="submit">Process</button>
+    </form>
+
+    {% if jd_summary %}
+    <hr>
+    <h2>📄 JD Summary</h2>
+    <pre>{{ jd_summary }}</pre>
+    {% endif %}
+
+    {% if results %}
+    <hr>
+    <h2>✅ Matching Results</h2>
+    <ul>
+      {% for result in results %}
+        <li>
+          <strong>{{ result.name }}</strong><br>
+          Score: {{ result.score }}<br>
+          Email Sent: {{ '✅' if result.email_sent else '❌' }}<br>
+          Matched Keywords: {{ result.matched_keywords }}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</body>
+</html>

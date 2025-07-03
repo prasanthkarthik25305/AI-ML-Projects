@@ -1,0 +1,23 @@
+{
+  "Role": "Software Tester",
+  "Required Skills": [
+    "Analytical skills",
+    "Problem-solving skills",
+    "Knowledge of testing tools (e.g. Selenium, JUnit, TestNG)",
+    "Understanding of software development lifecycle (SDLC) and Agile methodologies"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science, Engineering, or related field"
+  },
+  "Experience": [
+    "Experience with testing tools",
+    "Ability to work independently and in a team environment"
+  ],
+  "Responsibilities": [
+    "Develop and execute test plans, cases, and scripts",
+    "Identify and document software defects, ensuring timely resolution",
+    "Automate testing processes to improve efficiency",
+    "Collaborate with developers to enhance software quality",
+    "Conduct performance and security testing as needed"
+  ]
+}

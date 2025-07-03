@@ -1,0 +1,21 @@
+{
+  "Role": "Network Engineer",
+  "Required Skills": [
+    "networking protocols (TCP/IP, DNS, DHCP)",
+    "firewalls, routers, enterprise networking",
+    "Cisco, Juniper, or similar networking technologies"
+  ],
+  "Qualifications": [
+    "Bachelor's degree in Computer Science, IT, or a related field"
+  ],
+  "Experience": [
+    "Experience with firewalls, routers, and enterprise networking"
+  ],
+  "Responsibilities": [
+    "Design and deploy network solutions for optimal performance",
+    "Monitor network health and troubleshoot issues",
+    "Implement security measures to protect network integrity",
+    "Manage firewalls, routers, switches, and VPNs",
+    "Ensure compliance with networking best practices and standards"
+  ]
+}

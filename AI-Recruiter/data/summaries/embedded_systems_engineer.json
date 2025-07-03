@@ -1,0 +1,26 @@
+{
+  "Role": "Embedded Software Developer",
+  "Required Skills": [
+    "C/C++ programming",
+    "Assembly language",
+    "Embedded Linux",
+    "Microcontrollers",
+    "Real-time operating systems",
+    "Hardware debugging tools"
+  ],
+  "Qualifications": [
+    "Bachelor's degree in Electrical Engineering, Computer Engineering, or related field"
+  ],
+  "Experience": [
+    "Microcontrollers",
+    "RTOS",
+    "Hardware debugging tools"
+  ],
+  "Responsibilities": [
+    "Develop, test, and optimize embedded software and firmware",
+    "Collaborate with hardware teams to ensure seamless integration",
+    "Debug and troubleshoot real-time system issues",
+    "Optimize power consumption and system performance",
+    "Stay updated with emerging technologies in embedded systems"
+  ]
+}

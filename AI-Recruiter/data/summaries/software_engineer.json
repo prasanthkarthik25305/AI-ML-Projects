@@ -1,0 +1,23 @@
+{
+  "Role": "Software Engineer",
+  "Required Skills": [
+    "Programming languages (Python, Java, C++)",
+    "Databases",
+    "Web development",
+    "Software frameworks"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science or a related field",
+    "Certifications": null
+  },
+  "Experience": [
+    "1-2+ years of experience with software development"
+  ],
+  "Responsibilities": [
+    "Develop, test, and deploy software applications",
+    "Write clean, maintainable, and scalable code",
+    "Collaborate with cross-functional teams to define and implement features",
+    "Troubleshoot and debug issues for optimal performance",
+    "Stay updated with emerging technologies and best practices"
+  ]
+}

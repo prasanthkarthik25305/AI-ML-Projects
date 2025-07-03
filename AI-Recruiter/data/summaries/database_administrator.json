@@ -1,0 +1,25 @@
+{
+  "Role": "Database Administrator",
+  "Required Skills": [
+    "SQL",
+    "database management systems (MySQL, PostgreSQL, Oracle, or MongoDB)",
+    "problem-solving and analytical skills"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's degree in Computer Science or related field",
+    "Technical Skills": "Proficiency in SQL and database management systems"
+  },
+  "Experience": [
+    "database security",
+    "backups",
+    "optimization",
+    "problem-solving and analytical skills"
+  ],
+  "Responsibilities": [
+    "Install, configure, and maintain database systems",
+    "Optimize database performance and ensure data security",
+    "Perform backups, recovery, and troubleshooting",
+    "Monitor system performance and resolve database issues",
+    "Implement best practices for database design and management"
+  ]
+}

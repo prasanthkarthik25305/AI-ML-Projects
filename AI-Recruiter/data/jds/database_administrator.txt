@@ -1,0 +1,16 @@
+Description:
+Manage, optimize, and secure database systems to ensure high performance, availability, and data integrity. Monitor database health, troubleshoot issues, and implement security measures.
+
+Responsibilities:
+
+Install, configure, and maintain database systems.
+Optimize database performance and ensure data security.
+Perform backups, recovery, and troubleshooting.
+Monitor system performance and resolve database issues.
+Implement best practices for database design and management.
+Qualifications:
+
+Bachelor's degree in Computer Science or related field.
+Proficiency in SQL and database management systems (MySQL, PostgreSQL, Oracle, or MongoDB).
+Experience in database security, backups, and optimization.
+Strong problem-solving and analytical skills.

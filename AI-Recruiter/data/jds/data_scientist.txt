@@ -1,0 +1,15 @@
+Job Description:
+We are looking for a skilled Data Scientist to analyze complex datasets, develop predictive models, and provide actionable insights. You will collaborate with cross-functional teams to optimize business strategies and drive data-driven decision-making.
+
+Responsibilities:
+Collect, clean, and analyze large datasets.
+Develop and deploy machine learning models.
+Build predictive analytics solutions to improve business outcomes.
+Communicate findings through reports and visualizations.
+Stay updated with advancements in data science and AI.
+Qualifications:
+Bachelors or Masters degree in Data Science, Computer Science, or a related field.
+Proficiency in Python, R, SQL, and machine learning frameworks.
+Experience with data visualization tools like Tableau or Power BI.
+Strong analytical and problem-solving skills.
+Ability to work independently and in a team environment.

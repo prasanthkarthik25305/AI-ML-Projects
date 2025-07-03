@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background: #f0f4f8;
+    padding: 2rem;
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  input, button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  

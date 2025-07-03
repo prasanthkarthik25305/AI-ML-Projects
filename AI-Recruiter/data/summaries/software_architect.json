@@ -1,0 +1,21 @@
+{
+  "Role": "Software Architect",
+  "Required Skills": [
+    "software design patterns and system architecture",
+    "cloud computing",
+    "microservices",
+    "DevOps practices",
+    "Java, Python, or C++ programming"
+  ],
+  "Qualifications": {
+    "Education": "Bachelor's/Master's degree in Computer Science or related field"
+  },
+  "Experience": null,
+  "Responsibilities": [
+    "Design and implement robust software architectures",
+    "Guide development teams in best coding and design practices",
+    "Ensure scalability, security, and performance of applications",
+    "Conduct architectural reviews and optimize system workflows",
+    "Stay updated with emerging technologies and industry trends"
+  ]
+}
