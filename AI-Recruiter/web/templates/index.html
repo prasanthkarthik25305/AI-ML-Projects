@@ -20,9 +20,17 @@
     {% endwith %}
 
     <form action="/process" method="POST" enctype="multipart/form-data">
-      <label for="jd">Upload Job Description (.txt):</label><br>
-      <input type="file" name="jd" accept=".txt" required><br><br>
-    
+
+     <label for="jd">
+            Upload Job Description (<strong>.csv, .xlsx, .xls</strong>):
+          </label><br>
+          <input
+            type="file"
+            name="jd"
+            accept=".csv,.xlsx,.xls"
+            required
+          ><br><br>
+      
       <label for="cvs">Upload Candidate CVs (.pdf, .docx):</label><br>
       <input type="file" name="cvs" multiple accept=".pdf,.docx" required><br><br>
     

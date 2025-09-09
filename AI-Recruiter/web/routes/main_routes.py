@@ -18,6 +18,20 @@ def index():
 def process():
     from io import StringIO
     import subprocess
+    import shutil
+
+    # helper to clear directories
+    def clear_directory(path):
+        if os.path.exists(path):
+            for filename in os.listdir(path):
+                file_path = os.path.join(path, filename)
+                try:
+                    if os.path.isfile(file_path) or os.path.islink(file_path):
+                        os.unlink(file_path)
+                    elif os.path.isdir(file_path):
+                        shutil.rmtree(file_path)
+                except Exception as del_err:
+                    print(f"❌ Failed to delete {file_path}: {del_err}")
 
     # Capture stdout
     old_stdout = sys.stdout
@@ -25,61 +39,63 @@ def process():
 
     summary = "(No summary generated)"
     try:
+        # 1) Save uploads
         jd_file = request.files["jd"]
-        cvs = request.files.getlist("cvs")
+        cvs    = request.files.getlist("cvs")
 
         data_dir = os.path.join(ROOT_DIR, "data")
-        jd_dir = os.path.join(data_dir, "jds")
-        cv_dir = os.path.join(data_dir, "cvs")
+        jd_dir   = os.path.join(data_dir, "jds")
+        cv_dir   = os.path.join(data_dir, "cvs")
 
+        # Ensure folders exist
         os.makedirs(jd_dir, exist_ok=True)
         os.makedirs(cv_dir, exist_ok=True)
 
+        # Clear old uploads
+        clear_directory(jd_dir)
+        clear_directory(cv_dir)
+
+        # Now save the new uploads
         jd_path = os.path.join(jd_dir, jd_file.filename)
         jd_file.save(jd_path)
-
-        print(f"\n📄 Saved JD file: {jd_path}")
+        print(f"📄 Saved JD file: {jd_path}")
 
         for cv in cvs:
             path = os.path.join(cv_dir, cv.filename)
             cv.save(path)
             print(f"📄 Saved CV: {path}")
 
-        # === Process JD ===
-        if jd_file.filename.endswith(".xlsx"):
-            print("\n🔁 Converting JD Excel to individual text files...")
-            subprocess.run(["python", os.path.join(ROOT_DIR, "convert_jds.py"), jd_path], check=True)
+        # 2) Convert all JDs in data/jds → .txt
+        print("🔁 Converting all uploaded JDs to .txt files…")
+        subprocess.run(
+            ["python", os.path.join(ROOT_DIR, "convert_jds.py")],
+            check=True
+        )
 
-            jd_texts = [f for f in os.listdir(jd_dir) if f.endswith(".txt")]
-            if jd_texts:
-                with open(os.path.join(jd_dir, jd_texts[0]), "r", encoding="utf-8") as f:
-                    jd_text = f.read()
+        # 3) Summarize the first .txt that appears
+        txt_files = sorted([f for f in os.listdir(jd_dir) if f.endswith(".txt")])
+        if not txt_files:
+            raise RuntimeError("No .txt files found after conversion.")
+        first_txt = os.path.join(jd_dir, txt_files[0])
+        with open(first_txt, "r", encoding="utf-8") as f:
+            jd_text = f.read()
 
-                summarizer = jd_summarizer.JDSummarizer()
-                summary = summarizer.summarize(jd_text)
-                print("\n✅ Sample JD Summary:")
-                print(summary)
-        else:
-            print("\n⚠️ JD file is not Excel (.xlsx), skipping conversion.")
-            with open(jd_path, "r", encoding="utf-8") as f:
-                jd_text = f.read()
+        summarizer = jd_summarizer.JDSummarizer()
+        summary = summarizer.summarize(jd_text)
+        print("✅ JD Summary:")
+        print(summary)
 
-            summarizer = jd_summarizer.JDSummarizer()
-            summary = summarizer.summarize(jd_text)
-            print("\n✅ JD Summary:")
-            print(summary)
-
-        # === Run recruiter pipeline ===
-        print("\n🚀 Starting AI Recruiter pipeline...")
+        # 4) Run the recruiter pipeline on exactly the CVs you uploaded
+        print("🚀 Starting AI Recruiter pipeline…")
         recruiter.process_resumes(cv_dir)
-        print("\n✅ Pipeline Complete.")
+        print("✅ Pipeline Complete.")
 
     except Exception as e:
-        print(f"\n❌ Error occurred: {e}")
+        print(f"❌ Error occurred: {e}", file=sys.stderr)
         summary = "An error occurred during processing."
 
     finally:
         sys.stdout = old_stdout
 
     logs = mystdout.getvalue()
-    return render_template("result.html", summary=summary, logs=logs)
+    return render_template("result.html", summary=summary, logs=logs)("result.html", summary=summary, logs=logs)
